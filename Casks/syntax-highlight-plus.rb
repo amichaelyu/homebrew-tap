@@ -14,7 +14,7 @@ cask "syntax-highlight-plus" do
 
   conflicts_with cask: "syntax-highlight"
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Syntax Highlight.app"
   binary "#{appdir}/Syntax Highlight.app/Contents/Resources/syntax_highlight_cli"
