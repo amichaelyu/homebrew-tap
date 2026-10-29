@@ -1,6 +1,6 @@
 cask "syntax-highlight-plus" do
-  version "2.2.0"
-  sha256 "54d6ad64d50851a8e0dc407b668bee62f20a3029316d859de82f86281d722a15"
+  version "2.2.1"
+  sha256 "b3e5ebcedee7dc98856d1ffccdeab4851b51a5a4a7fb9af23a90aa5fc91219c7"
 
   url "https://github.com/amichaelyu/SourceCodeSyntaxHighlight/releases/download/v#{version}/Syntax-Highlight-#{version}-arm64.zip"
   name "Syntax Highlight Plus"
