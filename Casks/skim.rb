@@ -1,6 +1,6 @@
 cask "skim" do
-  version "1.7.17.1"
-  sha256 "d6e49a80e3a77d72d06acca421c8246246376b47e92239cc65c8bad190cf8776"
+  version "1.7.17.2"
+  sha256 "e60181793be9adee637210dd1efc4ec68fdeea892be91ddcb1e799bcc42c323b"
 
   url "https://github.com/amichaelyu/skim/releases/download/#{version}/Skim.zip"
   name "Skim"
