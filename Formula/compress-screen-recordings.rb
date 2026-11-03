@@ -1,8 +1,8 @@
 class CompressScreenRecordings < Formula
   desc "Automatically shrink macOS screen recordings on the Desktop with ffmpeg"
   homepage "https://github.com/amichaelyu/compress-screen-recordings"
-  url "https://github.com/amichaelyu/compress-screen-recordings/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "a4e09f6fcda2046e0500d695d958282994b94f871eebd50aa8cef459a6df4381"
+  url "https://github.com/amichaelyu/compress-screen-recordings/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "f00763691fd44a401ca0aeddabf24a40c9e6ae16c6b349e631d88e834ce58a40"
 
   depends_on "ffmpeg"
   depends_on :macos
