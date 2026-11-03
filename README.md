@@ -3,7 +3,6 @@
 Homebrew tap for my apps and forks.
 
 ```
-brew tap amichaelyu/tap
 brew trust amichaelyu/tap   # Homebrew won't load third-party tap formulae until trusted
 brew install amichaelyu/tap/syntax-highlight-plus
 brew install --cask amichaelyu/tap/ice
