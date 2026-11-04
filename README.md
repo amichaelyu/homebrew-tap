@@ -19,4 +19,4 @@ brew install amichaelyu/tap/server-autoreconnect
 
 **skim** — [Skim](https://github.com/amichaelyu/skim) fork whose reloads of a changed PDF don't flash, for live LaTeX previews. Notarized. Install it in place of `homebrew/cask/skim` (`brew uninstall --cask skim` first).
 
-**server-autoreconnect** — [Remounts network shares](https://github.com/amichaelyu/server-autoreconnect) whenever their server is reachable, so Finder sidebar favorites come back on their own. List shares in `~/.config/server-autoreconnect/shares`, then `brew services start server-autoreconnect`.
+**server-autoreconnect** — [Keeps network shares mounted](https://github.com/amichaelyu/server-autoreconnect) and in the Finder sidebar: remounts them whenever their server is reachable and re-adds missing sidebar favorites. Run `brew services start server-autoreconnect`, then connect to each share once in Finder.
