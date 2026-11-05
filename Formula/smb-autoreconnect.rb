@@ -1,16 +1,17 @@
 class SmbAutoreconnect < Formula
   desc "Keep network shares mounted and in the Finder sidebar"
-  homepage "https://github.com/amichaelyu/smb-autoreconnect"
-  url "https://github.com/amichaelyu/smb-autoreconnect/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "c75d099721e530eca3b5c4c1440be44c81e4513d89a10bc4287de696e5547f24"
+  homepage "https://github.com/amichaelyu/launchAgents/tree/main/smb-autoreconnect"
+  url "https://github.com/amichaelyu/launchAgents/archive/refs/tags/v1.0.0.tar.gz"
+  version "0.3.1"
+  sha256 "57c964167fddacfdc0a9427d3349316d0918ba56b9ad620c4d8d22f5cf6c2deb"
 
   depends_on :macos
 
   def install
-    system "swiftc", "-O", "-suppress-warnings", "src/sidebar.swift", "-o", "smb-autoreconnect-sidebar"
+    system "swiftc", "-O", "-suppress-warnings", "smb-autoreconnect/src/sidebar.swift", "-o", "smb-autoreconnect-sidebar"
     libexec.install "smb-autoreconnect-sidebar"
-    bin.install "bin/smb-autoreconnect"
-    pkgshare.install "shares.example"
+    bin.install "smb-autoreconnect/bin/smb-autoreconnect"
+    pkgshare.install "smb-autoreconnect/shares.example"
   end
 
   service do

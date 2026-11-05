@@ -15,8 +15,8 @@ brew install amichaelyu/tap/smb-autoreconnect
 
 **ice** — [Ice](https://github.com/amichaelyu/Ice) fork rebuilt for macOS 27 (also runs on macOS 14 and later). Universal, notarized.
 
-**compress-screen-recordings** — [Watches the Desktop](https://github.com/amichaelyu/compress-screen-recordings) and re-encodes macOS screen recordings with ffmpeg, usually 5-10x smaller. Run `compress-screen-recordings install-agent` after installing.
+**compress-screen-recordings** — [Watches the Desktop](https://github.com/amichaelyu/launchAgents/tree/main/compress-screen-recordings) and re-encodes macOS screen recordings with ffmpeg, usually 5-10x smaller. Run `compress-screen-recordings install-agent` after installing.
 
 **skim** — [Skim](https://github.com/amichaelyu/skim) fork whose reloads of a changed PDF don't flash, for live LaTeX previews. Notarized. Install it in place of `homebrew/cask/skim` (`brew uninstall --cask skim` first).
 
-**smb-autoreconnect** — [Keeps network shares mounted](https://github.com/amichaelyu/smb-autoreconnect) and in the Finder sidebar: remounts them whenever their server is reachable and re-adds missing sidebar favorites. Run `brew services start smb-autoreconnect`, then connect to each share once in Finder.
+**smb-autoreconnect** — [Keeps network shares mounted](https://github.com/amichaelyu/launchAgents/tree/main/smb-autoreconnect) and in the Finder sidebar: remounts them whenever their server is reachable and re-adds missing sidebar favorites. Run `brew services start smb-autoreconnect`, then connect to each share once in Finder.

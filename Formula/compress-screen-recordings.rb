@@ -1,14 +1,15 @@
 class CompressScreenRecordings < Formula
   desc "Automatically shrink macOS screen recordings on the Desktop with ffmpeg"
-  homepage "https://github.com/amichaelyu/compress-screen-recordings"
-  url "https://github.com/amichaelyu/compress-screen-recordings/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "f00763691fd44a401ca0aeddabf24a40c9e6ae16c6b349e631d88e834ce58a40"
+  homepage "https://github.com/amichaelyu/launchAgents/tree/main/compress-screen-recordings"
+  url "https://github.com/amichaelyu/launchAgents/archive/refs/tags/v1.0.0.tar.gz"
+  version "0.1.2"
+  sha256 "57c964167fddacfdc0a9427d3349316d0918ba56b9ad620c4d8d22f5cf6c2deb"
 
   depends_on "ffmpeg"
   depends_on :macos
 
   def install
-    bin.install "bin/compress-screen-recordings"
+    bin.install "compress-screen-recordings/bin/compress-screen-recordings"
   end
 
   def caveats
