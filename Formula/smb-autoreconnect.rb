@@ -1,9 +1,9 @@
 class SmbAutoreconnect < Formula
   desc "Keep network shares mounted and in the Finder sidebar"
   homepage "https://github.com/amichaelyu/launchAgents/tree/main/smb-autoreconnect"
-  url "https://github.com/amichaelyu/launchAgents/archive/refs/tags/v1.2.0.tar.gz"
-  version "0.5.0"
-  sha256 "ddfc14f5506adce0c8056656df504613dc1fb1daf78dae004ce4bad027e6dd4b"
+  url "https://github.com/amichaelyu/launchAgents/archive/refs/tags/v1.3.0.tar.gz"
+  version "0.6.0"
+  sha256 "eaeee3abd420226e1921f706d47c0f6c54ac0f27d1757222c1ee5a2ec5028fe8"
 
   depends_on :macos
 
